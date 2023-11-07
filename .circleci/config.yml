@@ -9,10 +9,10 @@ executors:
 jobs:
   say-hello:
        docker:
-      - image: cimg/base:stable
+       - image: cimg/base:stable
        steps:
-      - checkout
-      - run:
+       - checkout
+       - run:
           name: "Say hello"
           command: "echo Hello, World!"
 
